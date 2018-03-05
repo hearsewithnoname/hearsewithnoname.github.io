@@ -75,10 +75,8 @@ header {
 	background: rgba(0,0,0,0.5);
 	width: 100%;
 	height: 76px;
-	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 100;
 
 }
 
@@ -181,7 +179,7 @@ a{
     margin-right:20px;
 	background-color: white;
 	height: auto;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 
 }
 .sectionone{
@@ -190,8 +188,11 @@ a{
 }
 .sectiontwo{
 	background-color:lightgray;
-    margin-left:20px;
-    margin-right:20px;
+    margin-left:-50px;
+    margin-right:-50px;
+	margin-top:50px;
+	margin-bottom:50px;
+
 	height: 10px;
 }
 .subsect h1{
@@ -470,10 +471,9 @@ a.app_store_btn:hover .play_icon{
 footer{
 	background-color: black;
 	padding-top: 30px;
-    margin-left:20px;
-    margin-right:20px;
 	text-align: center;
-		margin-bottom: 5px;
+	margin-left: -50px;
+	margin-right: -50px;
 
 	height:auto;
 
